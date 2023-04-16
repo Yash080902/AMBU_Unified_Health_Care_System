@@ -1,0 +1,70 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+ 
+}
+body{
+    /* background-image: url("illustration-of-syringe.jpg"); */
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    height: auto;
+    background-repeat: no-repeat;
+}
+ h1{
+    text-align:center;
+    
+}
+.about-us{
+  height: 100vh;
+  width: 100%;
+  padding: 90px 0;
+  color: rgb(8, 8, 8);
+  
+}
+.pic{
+  height: auto;
+  width:  302px;
+}
+.about{
+  width: 1130px;
+  max-width: 100%;
+  margin: 0 ;
+  display: flex;
+  /* align-items: center; */
+  /* justify-content: space-around; */
+}
+.text{
+  width: 100%;
+  border:2px rgb(15, 15, 15);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  position: fixed;
+}
+
+.text h2{
+margin-left: 94px;
+  font-size: 90px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: black;
+
+}
+.para{
+   border-radius:4%;
+   box-shadow:4px 3px rgb(12, 124, 236);
+}
+ .para:active{
+    color:black;
+
+ }
+.text p{
+ margin-left: 100px;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 1px;
+}
+.data{
+  margin-top: 30px;
+}
